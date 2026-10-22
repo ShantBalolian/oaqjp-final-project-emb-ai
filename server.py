@@ -3,7 +3,7 @@ Flask server for the Emotion Detector application.
 Provides endpoints to analyse text and return emotion scores.
 """
 from flask import Flask, render_template, request
-from EmotionDetection import emotion_detector
+from EmotionDetection.emotion_detection import emotion_detector
 
 app = Flask("Emotion Detector")
 
